@@ -1,6 +1,3 @@
-#wget https://www.dropbox.com/s/x65dbixto5aojg4/1070.assoc.tsv.gz?dl=0 -O 1070.assoc.tsv.gz -O - | gunzip >  1070.assoc.tsv
-#awk '$9<5e-08' 1070.assoc.tsv > 1070.assoc.filtered.tsv
-#rm -rf 1070.assoc.tsv
 counter=0
 for link in $(cat links.txt)
 do
