@@ -52,4 +52,13 @@ The following framework shows that using clusterisation in search of multiple as
   ![](https://github.com/anton-shikov/GWAS_project/blob/master/results/Clust_geom_point.jpeg?raw=true)
   ![](https://github.com/anton-shikov/GWAS_project/blob/master/results/Clustered_density_clust_09.jpeg?raw=true)
   ![](https://github.com/anton-shikov/GWAS_project/blob/master/results/hist.jpeg?raw=true)
-## Future plans 
+#### Manhattan plot for nonclustered data
+  ![](https://github.com/anton-shikov/GWAS_project/blob/master/results/Manhattan_09.jpeg?raw=true)
+#### Manhattan plot for clustered data
+  ![](https://github.com/anton-shikov/GWAS_project/blob/master/results/Clustered_Manhattan_09.jpeg?raw=true) 
+#### MAF correlation for nonclustered data
+  ![](https://github.com/anton-shikov/GWAS_project/blob/master/results/scatter_09.jpeg?raw=true)
+  ![](https://github.com/anton-shikov/GWAS_project/blob/master/results/Violin_09.jpeg?raw=true)
+#### MAF correlation for clustered data
+  ![](https://github.com/anton-shikov/GWAS_project/blob/master/results/Clust_scatter_09.jpeg?raw=true)
+  ![](https://github.com/anton-shikov/GWAS_project/blob/master/results/Clust_violin_09.jpeg?raw=true)
