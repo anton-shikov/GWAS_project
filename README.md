@@ -23,5 +23,22 @@ Big table with all extracted data was analyzed with the help of phyton. To parse
 All scripts are presented in repository and they are correctly working. 
 Unfortunately, even archived file was too big for adding it to the current git repository, for this reason, data was uploaded to Google drive
 (https://drive.google.com/drive/folders/1bfQJ6X6sSNmHh0QfLi-7j9l2oh5e3Npa).	
+After that heatmap with phenotypes was builded (using Szymkiewicz–Simpson coefficient for common SNP).
+This heatmap was subjected to hierarchical clustering in order to find SNP associated with clusters instead of single phenotypes.
+The obtained data was used for further analysis (visualizing Manhattan plots, calculating MAF correlations, realization sliding clip in search of local maxima)
 
-
+### Scripts description
+1. Downloading.sh - script for downloading tsv-files for all phenotypes  
+2. Data_prep.sh - script for downloaded data preprocessing, this files were subsequently merged in uneted tsv-file  
+3. tsv_parse.py - script for merging rows in tsv-file (merging SNP associaeted with several phenotypes)  
+4. Data_Visualization.r - script for visualisation data (building geom point and geom density plots)  
+5. Data_plot_preparation.sh, Data_preparation_for_plot.py - scripts for data preprocessing for Manhattan plot  
+6. Data_preparation_for_heatmap.py - script for  data preprocessing for heatmap  
+7. Heatmap_array_build.py - script for building heatmap with phenotypes  
+8. Heatmap_viz.r - script for heatmap visualizing and hierarchical clustering  
+9. Manhattan_plot_viz.r - script for Manhattan plot visualizing  
+10. Clustered_manhattan_prep.py - script for data preparation for Manhattan plot with associated clusters  
+11. MAF_preparation.py, Specifying_data_for_phen_corr.sh - scripts for data preprocessing for calculating MAF correlation  
+12. MAF_correlation.r - scripts for calculating MAF correlation and visualizing scatter plots and violin plots  
+13. Sliding_clip.py - script for finding local maxima  
+14. VCF_obtaining.py, BED_obtaining.py - scripts for converting tsv-files into BED and VCF files for functional annotation  
