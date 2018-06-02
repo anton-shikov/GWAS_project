@@ -42,3 +42,14 @@ The obtained data was used for further analysis (visualizing Manhattan plots, ca
 12. MAF_correlation.r - scripts for calculating MAF correlation and visualizing scatter plots and violin plots  
 13. Sliding_clip.py - script for finding local maxima  
 14. VCF_obtaining.py, BED_obtaining.py - scripts for converting tsv-files into BED and VCF files for functional annotation  
+
+## Results 
+The following framework shows that using clusterisation in search of multiple associations in GWAS data could be an efficient method to reduce artifacts and find interesting SNP needed further investigation
+#### Data distribution for nonclustered data
+  ![](https://github.com/anton-shikov/GWAS_project/blob/master/results/geom_point_09.jpeg?raw=true)
+  ![](https://github.com/anton-shikov/GWAS_project/blob/master/results/geom_point_09.jpeg?raw=true)
+#### Data distribution for clustered data
+  ![](https://github.com/anton-shikov/GWAS_project/blob/master/results/Clust_geom_point.jpeg?raw=true)
+  ![](https://github.com/anton-shikov/GWAS_project/blob/master/results/Clustered_density_clust_09.jpeg?raw=true)
+  ![](https://github.com/anton-shikov/GWAS_project/blob/master/results/hist.jpeg?raw=true)
+## Future plans 
