@@ -7,10 +7,10 @@ Created on Thu Apr 26 14:40:34 2018
 
 import csv
 
-csvwfile = open('C:\\Downloads\\merged_data_for_heatmap.tsv', 'w',newline='')
+csvwfile = open('C:\\Downloads\\merged_data_for_heatmap_09.tsv', 'w',newline='')
 my_writer = csv.writer(csvwfile, delimiter='\t')
     
-csvfile = open ('C:\\Downloads\\data_for_heatmap.tsv')
+csvfile = open ('C:\\Downloads\\data_for_heatmap_09.tsv')
 my_reader = csv.reader(csvfile, delimiter='\t')
 row = next(my_reader)
 while(True):

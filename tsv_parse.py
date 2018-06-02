@@ -7,10 +7,10 @@ Created on Fri Mar 30 00:26:14 2018
 
 import csv
 
-csvwfile = open('C:\\Downloads\\all_m.tsv', 'w',newline='')
+csvwfile = open('C:\\Downloads\\merged_09.tsv', 'w',newline='')
 my_writer = csv.writer(csvwfile, delimiter='\t')
     
-csvfile = open ('C:\\Downloads\\all_sorted.tsv')
+csvfile = open ('C:\\Downloads\\sorted_09.tsv')
 my_reader = csv.reader(csvfile, delimiter='\t')
 row = next(my_reader)
 while(True):
